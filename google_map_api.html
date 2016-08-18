@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5kXsZFLbyKiRb-1xfC9E4cTpVUD4JAqM&callback=initMap"
+  type="text/javascript"></script>
+    <script type="text/javascript">
+    google.charts.load('current', {'packages':['geomap']});
+    google.charts.setOnLoadCallback(drawMap);
+
+      function drawMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['place', 'Popularity'],
+        ["Dhaka Division", 200],
+		["Rajshahi Division",800],
+		["Gajipur",500]
+             ]);
+
+        var options = {};
+        
+		
+		options['dataMode'] = 'markers';
+		options['region'] = 'BD';
+		options['colors'] = [0xFF8747, 0xFFB581, 0xc06000];
+	
+        var container = document.getElementById('regions_div');
+        var geomap = new google.visualization.GeoMap(container);
+
+        geomap.draw(data, options);
+      };
+    </script>
+  </head>
+  <body>
+    <div id="regions_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+moisture 
+
+m1= <100mm ->1 
+m2= 100-200mm ->2 
+m3= 200-300mm ->3 
+m4= 300-400mm -> 4 
+m5= >400mm -> 5 
+
+
+Soil Reaction(PH)
+
+a1= <4.5 ->1 
+a2= 4.5-5.5 ->2 
+a3= 5.5-7.3 ->3 
+a4= 7.3-8.4 ->4 
+a5= >8.4 ->5 
+
+
+Soil Salinity
+
+s1= < 2 dS/m or < 2 mMhos/cm ->1 
+s2= 2-4 dS/m or 2-4 mMhos/cm ->2 
+s3= 4-8 dS/m or 4 -8 m.Mhos/cm ->3 
+s4= 8-15 dS/m or 8 -15 mMhos/cm ->4 
+s5=  > 15 dS/m or > 15 mMhos/cm ->5 
+
+
+Temperature (number of days over 40 degree celsius)
+
+e1= <.5 ->1 
+e2= 0.5-5 ->2 
+e3= 5-10 ->3 
+e4= >10 ->4 
+
+
+
+#nutrients recommendation
+
+N 
+P
+K 
+S 
+Mg 
+Zn 
+B
+
+
+
+Season 
+
+Rabi (Nomvember-March)
+Kharif 1 (April-May)
+Kharif 2 (june-November)
+
+
+
